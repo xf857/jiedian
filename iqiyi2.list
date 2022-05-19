@@ -1,9 +1,9 @@
 
 
-HOST,intel-cache.m.iqiyi.com,iqiyi
-HOST,intel-cache.video.iqiyi.com,iqiyi
-HOST,intl-rcd.iqiyi.com,iqiyi
-HOST,intl-subscription.iqiyi.com,iqiyi
+HOST-SUFFIX,intel-cache.m.iqiyi.com,iqiyi
+HOST-SUFFIX,intel-cache.video.iqiyi.com,iqiyi
+HOST-SUFFIX,intl-rcd.iqiyi.com,iqiyi
+HOST-SUFFIX,intl-subscription.iqiyi.com,iqiyi
 HOST-SUFFIX,71.am,iqiyi
 HOST-SUFFIX,71edge.com,iqiyi
 HOST-SUFFIX,inter.iqiyi.com,iqiyi
