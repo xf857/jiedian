@@ -22,7 +22,7 @@ spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotif
 hostname =spclient.wg.spotify.com
 [Script]
 # 修改下方argument中的appid和securityKey,填入自己的appid和密钥
-http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify歌词翻译, argument=appid=111&securityKey=xxx
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path=https://raw.githubusercontent.com/xf857/jiedian/main/spotify-lyric.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify歌词翻译, argument=appid=111&securityKey=xxx
 
 3.qx:
     - 自行配置MITM域名: spclient.wg.spotify.com
